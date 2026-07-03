@@ -1,5 +1,12 @@
 # L Route Reflection Skill
 
+![L Route Reflection Skill](repo_cover.png)
+
+[![release](https://img.shields.io/github/v/release/sushuqiong/l-route-reflection-skill?display_name=tag)](https://github.com/sushuqiong/l-route-reflection-skill/releases)
+![license](https://img.shields.io/github/license/sushuqiong/l-route-reflection-skill)
+![last commit](https://img.shields.io/github/last-commit/sushuqiong/l-route-reflection-skill)
+![status](https://img.shields.io/badge/status-public--safe-brightgreen)
+
 A privacy-safe reflection skill for turning unstable-platform career narratives into structured outputs: timelines, route comparisons, memoir drafts, poster prompts, and risk/benefit audits.
 
 ## What It Does
