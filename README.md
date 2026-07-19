@@ -34,6 +34,10 @@ It helps turn raw recollection into outputs that are:
   Reusable templates for timelines, route comparisons, audits, and essay prompts.
 - `examples.md`
   Short examples showing how the skill can be applied.
+- `CHANGELOG.md`
+  Version history for public releases.
+- `release-process.md`
+  Lightweight release-note and version-maintenance guidance.
 
 ## Best Use Cases
 
@@ -71,6 +75,12 @@ It avoids:
 - patient details
 - rare searchable combinations
 - unsupported accusations framed as verified fact
+
+## Project maintenance
+
+- [CHANGELOG.md](./CHANGELOG.md)
+- [release-process.md](./release-process.md)
+- [.github/release-template.md](./.github/release-template.md)
 
 ## License
 
