@@ -1,0 +1,7 @@
+interface:
+  display_name: "L Route Reflection"
+  short_description: "Evidence-bounded, privacy-safe career reflection"
+  default_prompt: "Use $l-route-reflection-skill to analyze this career narrative candidly while separating facts, inference, hindsight, and counterfactuals."
+
+policy:
+  allow_implicit_invocation: true

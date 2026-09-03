@@ -5,78 +5,66 @@
 [![release](https://img.shields.io/github/v/release/sushuqiong/l-route-reflection-skill?display_name=tag)](https://github.com/sushuqiong/l-route-reflection-skill/releases)
 ![license](https://img.shields.io/github/license/sushuqiong/l-route-reflection-skill)
 ![last commit](https://img.shields.io/github/last-commit/sushuqiong/l-route-reflection-skill)
-![status](https://img.shields.io/badge/status-public--safe-brightgreen)
+![status](https://img.shields.io/badge/status-privacy--enhanced-brightgreen)
 
-A privacy-safe reflection skill for turning unstable-platform career narratives into structured outputs: timelines, route comparisons, memoir drafts, poster prompts, and risk/benefit audits.
+A skill for candid, evidence-bounded reflection on unstable institutions,
+career rupture, family or mentor pressure, changing alignments, and later
+success or failure. It supports private analysis and privacy-enhanced public
+adaptation without treating aliases as anonymity.
 
-## What It Does
+## What It Improves
 
-This skill is designed for stories that involve:
+- separates observation, recollection, inference, later evidence, and
+  counterfactual claims
+- fixes the historical information set before judging a past decision
+- compares feasible branches without hindsight bias or false precision
+- distinguishes concern from coercive effect, and adaptation from betrayal
+- separates agency, prior assets, institutional conditions, timing, and luck
+- preserves uncomfortable errors without forcing hero, victim, or villain
+  narratives
+- applies a public-release gate for direct identifiers, quasi-identifiers,
+  third-party details, metadata, and rare identifying combinations
 
-- unstable institutions
-- broken training pipelines
-- fragile loyalty to mentors, departments, or platforms
-- self-reconstruction through portable skills
-- later reinterpretation of suffering, luck, and agency
+## Repository Structure
 
-It helps turn raw recollection into outputs that are:
+- [`SKILL.md`](./SKILL.md): core routing, reasoning workflow, and quality gate
+- [`templates.md`](./templates.md): reusable analytical and public-safe output
+  structures
+- [`examples.md`](./examples.md): deliberately generic examples
+- [`references/analysis-frameworks.md`](./references/analysis-frameworks.md):
+  counterfactual, power, relationship, and professional-boundary methods
+- [`references/privacy-release.md`](./references/privacy-release.md): manual
+  privacy and repository release gate
+- [`scripts/privacy_scan.py`](./scripts/privacy_scan.py): local scanner for
+  common identifiers and secrets
 
-- de-identified by default
-- emotionally honest
-- structurally clear
-- reusable across literary, analytical, and visual formats
+## Quick Start
 
-## Included Files
+Ask for the smallest useful output, for example:
 
-- `SKILL.md`
-  The main skill instructions and workflow.
-- `templates.md`
-  Reusable templates for timelines, route comparisons, audits, and essay prompts.
-- `examples.md`
-  Short examples showing how the skill can be applied.
-- `CHANGELOG.md`
-  Version history for public releases.
-- `release-process.md`
-  Lightweight release-note and version-maintenance guidance.
+```text
+Use $l-route-reflection-skill to assess this decision from what was knowable at
+the time. Separate facts, inference, hindsight, and realistic counterfactuals.
+```
 
-## Best Use Cases
+For a public artifact, first minimize the source narrative. Then run:
 
-- memoir drafting
-- career reflection
-- unstable institution debriefing
-- transformation of chat logs into essays, tables, and poster prompts
-- public-safe adaptation of sensitive personal narratives
+```powershell
+python scripts/privacy_scan.py . --git-metadata --fail-on high
+```
 
-## Core Principles
+The scanner also flags non-`noreply` Git author and committer emails. It does
+not prove anonymity. Complete the manual acquaintance and rare-combination
+review in `references/privacy-release.md` before publishing.
 
-- Do not romanticize suffering.
-- Distinguish platform value from personal recovery.
-- Distinguish agency from luck.
-- Treat gratitude, loyalty, and dependence as separate concepts.
-- Default to aliases and de-identification unless a private archive is explicitly requested.
+## Safety Position
 
-## Suggested Output Set
+This repository contains abstract methods and composite examples, not a source
+chronology. Public outputs should omit real names, patient information, exact
+local paths, searchable quotations, and distinctive combinations of dates,
+roles, institutions, and incidents.
 
-For a strong first pass, use this skill to generate:
-
-1. a de-identified timeline
-2. a route comparison table
-3. a risk/benefit audit
-4. a 2500-3500 word public-safe memoir draft
-5. a 6-poster image prompt set
-
-## Safety Default
-
-This repository is intentionally public-safe.
-
-It avoids:
-
-- real names
-- patient details
-- rare searchable combinations
-- unsupported accusations framed as verified fact
-
-## Project maintenance
+## Maintenance
 
 - [CHANGELOG.md](./CHANGELOG.md)
 - [release-process.md](./release-process.md)

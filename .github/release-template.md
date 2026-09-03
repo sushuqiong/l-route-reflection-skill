@@ -23,6 +23,13 @@ One-sentence summary of what this release improves.
 - Clarified a privacy, wording, or reflection boundary
 - Reduced friction between the skill intent and the public README
 
+### Privacy verification
+
+- Automated scan result and scope
+- Manual rare-combination and third-party review
+- Confirmation that staged files contain no source narratives or local
+  denylists
+
 ### Who this helps
 
 - Users turning personal history into structured reflection
